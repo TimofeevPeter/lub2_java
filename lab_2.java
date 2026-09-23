@@ -63,6 +63,10 @@ public class lab_2 {
         Home f5 = new Home(35);
         Home f6 = new Home(91);
 
+        // Демонстрация невозможности изменения:
+        // h4.floors = 10;          // ошибка: поле private, извне недоступно
+        // floors = 10;             // ошибка: поле final, переназначить нельзя
+        
         System.out.println(f4.toTextHome());
         System.out.println(f5.toTextHome());
         System.out.println(f6.toTextHome());
